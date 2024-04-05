@@ -1,3 +1,5 @@
+""" Lineer İnterpolasyon Yöntemi """
+
 def f(x):
     return (x**2 - 3*x - 4)
 
