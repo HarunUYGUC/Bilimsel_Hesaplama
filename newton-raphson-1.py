@@ -2,11 +2,11 @@
 def f(x):
     return (x**2 - 3*x - 4)
 
-# Doğru
+# Eğrinin Türevi (Eğim) => Doğru
 def fi(x):
     return (2*x - 3)
 
-# Eğimin x ekseni üzerindeki uzantısı ile eğimin kökü arasındaki fark.
+# Eğimin x ekseni üzerindeki uzantısı ile eğrinin kökü arasındaki fark.
 def hata(x1, x2):
     return (abs((x1 - x2) / x1)) # abs(), absolute (mutlak değer)
 
