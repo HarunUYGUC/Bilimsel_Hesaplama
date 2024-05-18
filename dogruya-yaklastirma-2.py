@@ -17,6 +17,7 @@ standartsapma = (standartsapma / (n - 1))**(1/2)
 for i in range(n):
     y = a0 + a1 * xi[i]
     ortalamahata += yi[i] - y
+    
 ortalamahata = abs((ortalamahata / (n - 2))**(1/2))
 
 print(a0 + a1 * 11)
